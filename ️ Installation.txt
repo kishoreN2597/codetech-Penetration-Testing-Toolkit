@@ -1,0 +1,14 @@
+
+---
+
+## ⚙️ Installation
+
+### **Requirements**
+- Python **3.x**
+- OS: Linux, Windows, or macOS
+- Modules: Only Python standard library (no external dependencies)
+
+### **Run the toolkit**
+```bash
+python3 pentool_gui.py
+

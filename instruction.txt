@@ -1,0 +1,41 @@
+1. Launch the toolkit
+
+Run:
+
+python3 pentool_gui.py
+
+2. Check authorization
+
+At the top of the window:
+
+✔ I confirm I have written authorization to test the target systems
+
+3. Choose a module
+
+Tabs available:
+
+Port Scanner
+
+Banner Grabber
+
+Ping
+
+Password Auditor
+
+4. Example (Port Scan on localhost)
+
+Start a test server:
+
+python3 -m http.server 8080
+
+
+Then scan:
+
+Host: 127.0.0.1
+
+Ports: 8080-8080
+
+You should see:
+
+Port 8080: OPEN
+
